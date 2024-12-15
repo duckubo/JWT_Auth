@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5q25lOeXjv8GCXuIrTlq59CPfSkzKONwp5KDI3E72K4n4E3lbdJb6" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-1qf8dGb1K9b25P1k4AL5zrCdkJKY0TZeb5RkMKOZr6jAXK2V5+RlF66L0FvDHmJL" crossorigin="anonymous"></script>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div class="form-group row">
+        <div class="col-sm-6">
+            <a asp-controller="GiaoViens" asp-action="Index" class="btn btn-primary btn-block ">Quản lý giáo viên</a>
+        </div>
+        <div class="col-sm-6">
+            <a asp-controller="SinhViens" asp-action="Index" class="btn btn-danger btn-block ">Quản lý sinh viên</a>
+        </div>
+    </div>
+
+    <br />
+
+
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
